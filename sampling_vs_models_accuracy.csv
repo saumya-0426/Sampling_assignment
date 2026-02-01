@@ -1,0 +1,6 @@
+,Sampling1_SimpleRandom,Sampling2_Bootstrap,Sampling3_Cluster,Sampling4_Stratified,Sampling5_Systematic
+M1_LogisticRegression,33.33,83.33,50.0,16.67,66.67
+M2_DecisionTree,66.67,100.0,100.0,83.33,33.33
+M3_RandomForest,66.67,83.33,75.0,50.0,100.0
+M4_SVM,50.0,83.33,0.0,16.67,66.67
+M5_NaiveBayes,50.0,83.33,50.0,66.67,66.67
