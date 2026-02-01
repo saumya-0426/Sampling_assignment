@@ -5,12 +5,12 @@
 
 ---
 
-## 📌 Objective
+## Objective
 The objective of this assignment is to understand the importance of different sampling techniques in handling highly imbalanced datasets and to analyze how these techniques affect the performance of various machine learning models. The study evaluates and compares multiple sampling strategies across different classifiers using accuracy as the evaluation metric.
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **Dataset Name:** Creditcard_data.csv  
 - **Description:** The dataset represents a highly imbalanced credit card transaction dataset where one class significantly dominates the other.  
 - **Dataset Link:**  
@@ -18,7 +18,7 @@ The objective of this assignment is to understand the importance of different sa
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 - `assignment_sampling.ipynb` – Google Colab notebook containing data balancing, sampling techniques, model training, and evaluation
 - `Creditcard_data.csv` – Imbalanced credit card transaction dataset used for experimentation
 - `sampling_vs_models_accuracy.csv` – Accuracy results of all models across different sampling techniques
@@ -27,7 +27,7 @@ The objective of this assignment is to understand the importance of different sa
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 1. **Data Loading**
    - The dataset was loaded using Pandas.
@@ -55,7 +55,7 @@ The objective of this assignment is to understand the importance of different sa
 
 ---
 
-## 📈 Result Table
+## Result Table
 
 | Model | Sampling1<br>SimpleRandom | Sampling2<br>Bootstrap | Sampling3<br>Cluster | Sampling4<br>Stratified | Sampling5<br>Systematic |
 |------|---------------------------|------------------------|----------------------|-------------------------|--------------------------|
@@ -67,7 +67,7 @@ The objective of this assignment is to understand the importance of different sa
 
 ---
 
-## 📊 Result Visualization
+## Result Visualization
 
 The following graph shows the **best sampling technique for each machine learning model** based on accuracy.
 
@@ -77,17 +77,16 @@ The following graph shows the **best sampling technique for each machine learnin
 
 ---
 
-## ⚠️ Constraints
+## Constraints
 - Results may vary slightly due to randomness in sampling methods.
 - Some sampling techniques may not perform well if class distribution is not preserved.
 - Accuracy alone may not fully capture model performance on imbalanced datasets.
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 The experiment demonstrates that there is no single best sampling technique for all models. Bootstrap sampling performed consistently well across most classifiers, while Random Forest achieved the highest accuracy with systematic sampling. This highlights the importance of choosing an appropriate sampling strategy based on the model and data characteristics when working with imbalanced datasets.
 
----
 
 
 
